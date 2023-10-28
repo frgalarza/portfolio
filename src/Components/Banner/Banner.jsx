@@ -1,4 +1,4 @@
-import foto from './img/recorte.jpg'
+import foto from './img/foto-perfil.png'
 import styles from './Banner.module.css'
 
 const Banner = ()=> {

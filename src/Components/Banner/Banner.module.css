@@ -23,6 +23,6 @@
 }
 
 .img {
-    border-radius: 50%;
+    aspect-ratio: 227/217;
     width: 90%;
 }

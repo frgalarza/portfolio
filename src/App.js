@@ -1,6 +1,8 @@
 import Banner from './Components/Banner/Banner';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
+import Contact from './Components/Contact/Contact';
 import './App.css';
 import Projects from './Components/Projects/Projects';
 import projectsData from "./projects.json"
@@ -13,6 +15,8 @@ function App() {
         <Banner className="banner"/>
         <About />
         <Projects projects={projectsData}/>
+        <Skills />
+        <Contact />
       </main> 
     </div>
   );

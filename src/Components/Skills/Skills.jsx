@@ -12,10 +12,7 @@ const Skills = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>JavaScript</td>
-                    </tr>
-                    <tr>
-                        <td>C++</td>
+                        <td>JavaScript <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></td>
                     </tr>
                 </tbody>
             </table>
@@ -27,16 +24,16 @@ const Skills = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>HTML5</td>
+                        <td>HTML5 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>CSS3</td>
+                        <td>CSS3 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>React.js</td>
+                        <td>React.js <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>Next.js 13</td>
+                        <td>Redux.js <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/></td>
                     </tr>
                 </tbody>
             </table>
@@ -48,16 +45,16 @@ const Skills = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Node.js</td>
+                        <td>Node.js <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>Express</td>
+                        <td>Express <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>Sequelize</td>
+                        <td>Sequelize <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-original.svg" alt="sequelize" width="40" height="40"/></td>
                     </tr>
                     <tr>
-                        <td>PostgreSQL</td>
+                        <td>PostgreSQL <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></td>
                     </tr>
                 </tbody>
             </table>

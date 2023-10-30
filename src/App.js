@@ -6,6 +6,7 @@ import Contact from './Components/Contact/Contact';
 import './App.css';
 import Projects from './Components/Projects/Projects';
 import projectsData from "./projects.json"
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Projects projects={projectsData}/>
         <Skills />
         <Contact />
+        <Footer />
       </main> 
     </div>
   );

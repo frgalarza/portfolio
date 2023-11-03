@@ -1,3 +1,11 @@
 .divSkills{
     display: flex;
 }
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}

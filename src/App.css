@@ -8,11 +8,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  background-color: #bcd6ff;
+  width: 90%;
   padding: 2%;
-  border: 1px solid #6a90ff ;
   color: #4767ff;
+  color: #ccc;
 }
 
 /* Agrega un margen superior para evitar la superposición */

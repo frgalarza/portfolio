@@ -2,29 +2,65 @@
     display: flex;
     position:fixed;
     width: 100%;
-    height: max-content;
-    justify-content: center;
-    background-color: #2938e8;
-    border-bottom: 2px solid #1e2c91;
+    height: 50px;
+    align-items: center;
+    background-color: #333;
     z-index: 1;
-}
-
-.a{
-    background-color: transparent;
-    font-weight: 800;
-    font-size: 90%;
-    color: white;
-    border: none;
-}
-
-.a:hover{
-    cursor: pointer;
 }
 
 .navigation{
     list-style: none;
     display: flex;
-    width: 20%;
-    justify-content: space-around;
-    align-items: center;
+    width: 50%;
+}
+
+
+/* CSS */
+.a {
+  align-items: center;
+  background-color: transparent;
+  border: 1px 0 solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(240, 240, 240, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  max-height: 30px;
+}
+
+
+.a:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(240, 240, 240, 0.8);
+}
+
+.a:hover {
+  transform: translateY(-1px);
+}
+
+.a:focus,
+.a:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
 }

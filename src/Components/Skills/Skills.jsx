@@ -1,7 +1,7 @@
 import styles from "./Skills.module.css"
 
 const Skills = () => {
-    return <section id="skills">
+    return <section id="skills" className={styles.section}>
         <h2>Tecnologias</h2>
         <div className={styles.divSkills}>
             <table>

@@ -1,7 +1,7 @@
 import styles from "./Contact.module.css"
 
 const Contact = () => {
-    return <section>
+    return <section id="contact">
         <h2>Contacto</h2>
         <form className={styles.form}>
             <label className={styles.label}>

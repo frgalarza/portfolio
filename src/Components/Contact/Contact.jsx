@@ -1,8 +1,8 @@
 import styles from "./Contact.module.css"
 
 const Contact = () => {
-    return <section id="contact">
-        <h2>Contacto</h2>
+    return <section id="contact" className={styles.section}>
+        <h2 className={styles.h2}>Contacto</h2>
         <form className={styles.form}>
             <label className={styles.label}>
                 Nombre completo<input type="text" placeholder="Ingrese su nombre completo" className={styles.input}/>
@@ -12,7 +12,7 @@ const Contact = () => {
             </label>
             <label className={styles.label}>
                 Mensaje
-                <textarea name="message" id="message" cols="30" rows="10" className={styles.input}></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" className={styles.input} placeholder="Ingrese su mensaje..."></textarea>
             </label>
             <button className={styles.button}>Enviar</button>
         </form>

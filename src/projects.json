@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "images": [],
+        "images": ["https://imgur.com/teiQ6G0", "https://i.imgur.com/6mrad2Y.jpg", "https://i.imgur.com/NCmkvgD.jpg"],
         "name": "Rick and Morty",
         "githubLink": "https://github.com/frgalarza/rick-and-morty",
         "description": "SPA en la que se renderizan personajes de Rick and Morty, con la posibilidad de buscar, crear, filtrar y ver a detalle los personajes",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "images": [],
+        "images": ["https://i.imgur.com/FBiOOGV.jpg", "https://i.imgur.com/74lBZFk.jpg", "https://i.imgur.com/q8mwD19.jpg", "https://i.imgur.com/aL8wM2H.jpg"],
         "name": "PokeWorld",
         "githubLink": "https://github.com/frgalarza/PI-POKEMON-MAIN",
         "description": "SPA en la que se renderizan personajes de Pokémon, con la posibilidad de buscar, crear, filtrar y ver a detalle los personajes",
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "images": [],
+        "images": ["https://i.imgur.com/zvbOdp5.jpg", "https://i.imgur.com/MtetZFu.jpg"],
         "name": "M.R.Propiedades",
         "githubLink": "https://github.com/frgalarza/MRPropiedades-PF",
         "description": "Página para inmobiliaria que facilita la gestión de inmuebles y clientes, desarrollado en equipo de 7 integrantes. Se implemento autenticación, clodinary, nodemailer, pasarela de pagos",

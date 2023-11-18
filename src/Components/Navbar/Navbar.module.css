@@ -6,13 +6,20 @@
     align-items: center;
     background-color: #333;
     z-index: 1;
+    justify-content: center;
+}
+
+.container{
+  width: 90%;
 }
 
 .navigation{
     list-style: none;
     display: flex;
     width: 50%;
+    padding-left: 0;
 }
+
 
 
 /* CSS */
@@ -63,4 +70,10 @@
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
+}
+
+@media all and (max-width: 480px) {
+  .container{
+    width: 100%;
+  }
 }

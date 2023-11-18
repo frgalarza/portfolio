@@ -52,3 +52,20 @@
     left: -9%;
     z-index: 10;
 }
+
+@media all and (max-width: 480px) {
+    .prevButton{
+        font-size: 28px;
+        left: -16%;
+    }
+
+    .nextButton{
+        font-size: 28px;
+        right: -16%;
+    }
+
+    .nextButton:focus,
+    .prevButton:focus{
+        background-color: transparent;
+    }
+}

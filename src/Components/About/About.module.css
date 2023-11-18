@@ -22,9 +22,20 @@
 .divText{
     height: 100%;
     width: 50%;
-    min-width: 500px;
 }
 
 .h2{
     font-size: 48px;
 }
+
+@media all and (max-width: 480px) {
+    .sectionAbout{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .divText{
+        width: 90%;
+    }
+  }

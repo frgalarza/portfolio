@@ -86,3 +86,20 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+@media all and (max-width: 480px) {
+  .header{
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-height: 900px;
+  }
+
+  .img{
+    position: relative;
+    width: 100%;
+  }
+
+  .links{
+    width: 70%;
+  }
+}

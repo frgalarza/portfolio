@@ -27,12 +27,14 @@ const Navbar = () => {
       }, []);
 
     return <nav className={styles.navbar}>
+      <div className={styles.container}>
         <ul className={styles.navigation}>
             <li><a href="#banner" className={styles.a}>Inicio</a></li>
             <li><a href="#about" className={styles.a}>Sobre mi</a></li>
             <li><a href="#projects" className={styles.a}>Proyectos</a></li>
             <li><a href="#contact" className={styles.a}>Contacto</a></li>
         </ul>  
+      </div>
     </nav>
 }
 

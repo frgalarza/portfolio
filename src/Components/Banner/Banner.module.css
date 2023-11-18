@@ -42,26 +42,6 @@
     font-weight: 900;
 }
 
-/* .a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    height: 30px;
-    width: 40px;
-    text-decoration: none;
-    color: #eee;
-    border: 1px solid #eee;
-    border-radius: 5px;
-}
-
-.a:hover{
-    background-color: rgba(240, 240, 240);
-    border-radius: 5px;
-    color: #1a29b9;
-} */
-
-/* CSS */
 .a {
   align-items: center;
   appearance: none;
@@ -90,7 +70,7 @@
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
+  font-size: 32px;
 }
 
 .a:focus {
